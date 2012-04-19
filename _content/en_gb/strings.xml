@@ -174,11 +174,11 @@
 	<str id="armory.item-tooltip.requires">Requires</str>
 	<str id="armory.item-tooltip.requires.personalarena">Requires personal arena rating of</str>
 	<region>
-		<str id="US" name="Americas" url="http://www.wowarmory.com"/>
-		<str id="EU" name="Europe" url="http://eu.wowarmory.com"/>
-		<str id="KR" name="Korea" url="http://kr.wowarmory.com"/>
-		<str id="CN" name="China" url="http://cn.wowarmory.com"/>
-		<str id="TW" name="Taiwan" url="http://tw.wowarmory.com"/>
+		<str id="US" name="Americas" url="http://www.omegawow.eu"/>
+		<str id="EU" name="Europe" url="http://www.omegawow.eu"/>
+		<str id="KR" name="Korea" url="http://www.omegawow.eu"/>
+		<str id="CN" name="China" url="http://www.omegawow.eu"/>
+		<str id="TW" name="Taiwan" url="http://www.omegawow.eu"/>
 	</region>
 	<common>
 		<str id="the-wow-armory">The World of Warcraft Armory</str>
@@ -200,11 +200,11 @@
 		<str id="labels.regioncolon">Region:</str>
 		<str id="labels.selectregioncolon">Select a Region:</str>
 
-		<str id="region.US">Americas</str>
+		<!--<str id="region.US">Americas</str>-->
 		<str id="region.EU">Europe</str>
-		<str id="region.KR">한국</str>
+		<!--<str id="region.KR">한국</str>
 		<str id="region.CN">中国大陆</str>
-		<str id="region.TW">台灣、香港與澳門</str>
+		<str id="region.TW">台灣、香港與澳門</str>-->
 
 		<str id="labels.usoceanic">Americas</str>
 		<str id="labels.europe">Europe</str>
@@ -2626,22 +2626,22 @@
 		<str id="searchengine">Search Engine</str>
 		<str id="title">Browser Search Plugin</str>
 		<str id="maintitle">More convenient searching.</str>
-		<str id="subtitle">Add the World of Warcraft Armory search field to your browser for instant Armory access from anywhere on the web!</str>
+		<str id="subtitle">Add the OmegaWoW Armory search field to your browser for instant Armory access from anywhere on the web!</str>
 		<str id="installnow">Install Now</str>
-		<str id="operaplugintitle">WoW Armory</str>
+		<str id="operaplugintitle">OmegaWoW Armory</str>
 		<str id="instructionsforopera">Instructions for Opera:</str>
 		<str id="instructionsforopera1">Click the <strong>Install Now</strong> button.</str>
 		<str id="instructionsforopera2">Click <strong>Yes</strong> in the popup dialogue.</str>
-		<str id="instructionsforopera3">Drag the "WoW Armory" box from <strong>Appearance → Buttons → My buttons</strong> to your browser bar.</str>
+		<str id="instructionsforopera3">Drag the "OmegaWoW Armory" box from <strong>Appearance → Buttons → My buttons</strong> to your browser bar.</str>
 		<str id="instructionsforopera4">Or</str>
 		<str id="instructionsforopera5">To add the Armory to Opera's default search engine list:</str>
 		<str id="instructionsforopera6">Go to <strong>Tools → Preferences → Search</strong>.</str>
 		<str id="instructionsforopera7">Click on <strong>Add</strong>.</str>
 		<str id="instructionsforopera8">Enter the following information into the popup dialogue and click <strong>OK</strong>:</str>
 		<str id="instructionsforopera9">
-      <b>Name:</b> WoW Armory<br/>
+      <b>Name:</b> OmegaWoW Armory<br/>
       <b>Keyword:</b> wow<br/>
-      <b>Address:</b> http://www.wowarmory.com/search.xml?searchQuery=%s&amp;searchType=all</str>
+      <b>Address:</b> http://logon.omegawow.eu/armory/search.xml?searchQuery=%s&amp;searchType=all</str>
 		<str id="instructionsforopera10">You should now be able to select "WoW Armory" from the dropdown list of search engines.</str>
 	</searchPlugin>
 
