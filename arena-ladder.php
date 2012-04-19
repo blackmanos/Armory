@@ -96,7 +96,7 @@ if(isset($_GET['sf'])) {
                 switch(Armory::$currentRealmInfo['type']) {
                     default:
                     case SERVER_MANGOS:
-                        $sort = '`arena_team_stats`.`wins2`';
+                        $sort = '`arena_team`.`seasonWins`';
                         break;
                     case SERVER_TRINITY:
                         $sort = '`arena_team`.`weekWins`';
@@ -110,7 +110,7 @@ if(isset($_GET['sf'])) {
                 switch(Armory::$currentRealmInfo['type']) {
                     default:
                     case SERVER_MANGOS:
-                        $sort = '`arena_team_stats`.`' . $_GET['sf'] .'`';
+                        $sort = '`arena_team`.`' . $_GET['sf'] .'`';
                         break;
                     case SERVER_TRINITY:
                         $sort = '`arena_team`.`' . $_GET['sf'] .'`';
@@ -140,11 +140,11 @@ if($arenateams) {
         foreach($team['emblem'] as $emblem_key => $emblem_value) {
             $xml->XMLWriter()->writeAttribute($emblem_key, $emblem_value);
         }
-        $xml->XMLWriter()->endElement();   //emblem
-        $xml->XMLWriter()->endElement();  //arenaTeam
+        $xml->XMLWriter()->endElement(); //emblem
+        $xml->XMLWriter()->endElement(); //arenaTeam
     }
 }
-$xml->XMLWriter()->endElement();  //arenaTeams
+$xml->XMLWriter()->endElement(); //arenaTeams
 $xml->XMLWriter()->endElement(); //arenaLadderPagedResult
 
 $xml->XMLWriter()->endElement(); //page
